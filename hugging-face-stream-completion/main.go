@@ -19,9 +19,7 @@ func main() {
 	// Create logger from environment variable
 	log := logger.GetLoggerFromEnv()
 
-	//envFile := "ollama.env"
-	//envFile := "llm-studio.env"
-	envFile := "docker.env"
+	envFile := "huggingface.env"
 	// Load environment variables from env file
 	if err := godotenv.Load(envFile); err != nil {
 		log.Error("Warning: Error loading env file: %v\n", err)
@@ -37,6 +35,7 @@ func main() {
 			Name:               "bob-assistant",
 			EngineURL:          engineURL,
 			SystemInstructions: "You are Bob, a helpful AI assistant.",
+			APIKey:             env.GetEnvOrDefault("TOKEN", ""),
 		},
 		models.Config{
 			Name:        modelId,
