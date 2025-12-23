@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"strings"
-	"with-dmr/team"
+	"let-s-chat/team"
 
 	"github.com/joho/godotenv"
 	"github.com/snipwise/nova/nova-sdk/agents/chat"
@@ -21,8 +21,8 @@ func main() {
 	// Create logger from environment variable
 	log := logger.GetLoggerFromEnv()
 
-	//envFile := "ollama.env"
-	envFile := "llm-studio.env"
+	envFile := "ollama.env"
+	//envFile := "llm-studio.env"
 	//envFile := "docker.env"
 	// Load environment variables from env file
 	if err := godotenv.Load(envFile); err != nil {
