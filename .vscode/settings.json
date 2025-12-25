@@ -3,8 +3,8 @@
   "workbench.colorTheme": "Houston",
   //"workbench.colorTheme": "Catppuccin Macchiato",
   //"workbench.colorTheme": "Idea intellij light theme",
-  "editor.fontSize": 15,
-  "terminal.integrated.fontSize": 15,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
   "editor.insertSpaces": true,
   "editor.tabSize": 4,
   "editor.detectIndentation": true,
@@ -52,7 +52,7 @@
     "editor.fontSize": 14
   },
   "[go]": {
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "editor.defaultFormatter": "golang.go",
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
@@ -68,34 +68,34 @@
   },
   "todohighlight.keywords": [
     {
-      "text": "dungeonAgent ",
-      "color": "#000000",
-      "backgroundColor": "#E2F0F2",
-      "border": "1px solid #E2F0F2",
+      "text": "STRUCTURED AGENT:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#2435D0",
+      "border": "1px solid #2435D0",
       "borderRadius": "3px",
       "isWholeLine": false
     },
     {
-      "text": "dungeonAgent.",
-      "color": "#000000",
-      "backgroundColor": "#E2F0F2",
-      "border": "1px solid #E2F0F2",
+      "text": "RAG AGENT:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#095A2D",
+      "border": "1px solid #095A2D",
       "borderRadius": "3px",
       "isWholeLine": false
     },
     {
-      "text": "playerTotal := playerRoll1 + playerRoll2 + player.Strength",
-      "color": "#000000",
-      "backgroundColor": "#E2F0F2",
-      "border": "1px solid #E2F0F2",
+      "text": "CHAT AGENT:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#831557",
+      "border": "1px solid #831557",
       "borderRadius": "3px",
       "isWholeLine": false
     },
     {
-      "text": "monsterTotal := monsterRoll1 + monsterRoll2 + monster.Strength",
-      "color": "#000000",
-      "backgroundColor": "#E2F0F2",
-      "border": "1px solid #E2F0F2",
+      "text": "STORE:",
+      "color": "#ffffff",
+      "backgroundColor": "#4503E0",
+      "border": "1px solid #4503E0",
       "borderRadius": "3px",
       "isWholeLine": false
     },

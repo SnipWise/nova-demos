@@ -1,0 +1,1 @@
+il faut verifier les numeros de tickets extraits dans la reponse finale

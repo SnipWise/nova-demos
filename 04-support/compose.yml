@@ -1,0 +1,153 @@
+services:
+  # docker compose up --build --no-log-prefix -d
+  # docker compose exec solving-issue-service ./solving-issue
+  solving-issue-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    stdin_open: true # ← important
+    tty: true # ← important
+
+    environment:
+      NOVA_LOG_LEVEL: INFO
+      RAG_PATH_TICKETS: ./data/tickets
+      RAG_PATH_REPORTS: ./data/reports
+      STORE_PATH_TICKETS: ./store/ticket_embeddings.json
+      STORE_PATH_REPORTS: ./store/report_embeddings.json
+
+    # Configuration de watch
+    develop:
+      watch:
+        # Rebuild complet pour les changements de code Go
+        - action: rebuild
+          path: .
+          target: /build
+          ignore:
+            - .git/
+            - data/
+            - store/
+            - "*.md"
+            - "Dockerfile"
+            - "compose.yml"
+
+    volumes:
+      - ./data:/app/data:rw
+      - ./store:/app/store:rw
+
+    configs:
+      - source: ticket.data.extraction.instructions.md
+        target: /app/ticket.data.extraction.instructions.md
+
+      - source: ticket.numbers.extraction.instructions.md
+        target: /app/ticket.numbers.extraction.instructions.md
+
+      - source: report.data.extraction.instructions.md
+        target: /app/report.data.extraction.instructions.md
+
+      - source: ticket.report.instructions.md
+        target: /app/ticket.report.instructions.md
+
+      - source: ticket.report.user.message.md
+        target: /app/ticket.report.user.message.md
+
+      - source: solution.report.instructions.md
+        target: /app/solution.report.instructions.md
+
+      - source: solution.report.user.message.md
+        target: /app/solution.report.user.message.md
+
+    models:
+      rag-model:
+        endpoint_var: ENGINE_URL
+        model_var: RAG_MODEL
+
+      extractor-model:
+        endpoint_var: ENGINE_URL
+        model_var: DATA_EXTRACTOR_MODEL
+
+      reporter-model:
+        endpoint_var: ENGINE_URL
+        model_var: REPORTER_MODEL
+
+      reporter-bigger-model:
+        endpoint_var: ENGINE_URL
+        model_var: REPORTER_BIGGER_MODEL
+
+models:
+  rag-model:
+    model: huggingface.co/mixedbread-ai/mxbai-embed-large-v1:f16
+    #context_size: 16384
+
+  extractor-model:
+    #model: hf.co/menlo/jan-nano-gguf:q4_k_m
+    model: hf.co/menlo/jan-nano-128k-gguf:q4_k_m
+    context_size: 16384
+
+  reporter-model:
+    #model: hf.co/menlo/lucy-gguf:q4_k_m
+    model: hf.co/menlo/lucy-128k-gguf:q4_k_m
+    context_size: 16384
+    #context_size: 32768
+
+  reporter-bigger-model:
+    model: ai/qwen2.5:latest
+    context_size: 32768  
+
+configs:
+  # ticketDataExtractionInstructions
+  ticket.data.extraction.instructions.md:
+    content: |
+      Extract the ticket metadata and return it in JSON format. configs:
+      Limit the number of keywords to maximum 3.
+
+  #ticketNumberExtractionInstructions
+  ticket.numbers.extraction.instructions.md:
+    content: |
+      Extract all ticket numbers mentioned in the user query and return them in JSON format.
+      Find the relevant keywords in the user query to help identify the ticket numbers.
+      Return an empty list if no ticket numbers are found.
+
+  # reportDataExtractionInstructions
+  report.data.extraction.instructions.md:
+    content: |
+      Extract the report metadata and return it in JSON format.
+      Limit the number of keywords to maximum 3.
+
+  # ticketReportInstructions
+  ticket.report.instructions.md:
+    content: |
+      You are an expert reporter that writes clear and concise reports based on customer support tickets.
+
+  # ticketReportUserMessage
+  # userTicketReportMessage
+  ticket.report.user.message.md:
+    content: |
+      Based on the following similar tickets:
+      ---
+      %s
+      ---
+      make a report with the list of the tickets with:
+      - the number
+      - the title
+      - and a short description.
+
+  # solutionReportInstructions
+  solution.report.instructions.md:
+    content: |
+      You are an expert reporter that writes clear and concise reports based on customer support tickets and solution reports.
+
+  # solutionReportUserMessage
+  # userMessageSolutionReport
+  solution.report.user.message.md:
+    content: |
+      Based on the following similar solution reports:
+      ---
+      %s
+      ---
+      make a report with the list of the reports with:
+      - the title
+      - and a short description.
+
+      Then, summarize everything in a final solution report to help the customer support team.
+      Make solution suggestions based on the reports.
