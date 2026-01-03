@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-085
+Title: Limiteur de température de sécurité
+Category: Sécurité Gaz & Sécurités Générales
+Brand: Multi-marques
+Symptoms:
+  - Température départ plafonnée à 80-85°C malgré demande supérieure
+  - Brûleur s'arrête avant atteinte consigne
+  - Code erreur limitation température
+  - Puissance bridée automatiquement
+  - Cycles marche/arrêt fréquents
+Keywords:
+  - Limiteur de température
+  - Sécurité
+  - Température
+  - Chauffage
+  - Émetteurs
+Short Description: Facteur de sécurité lié à la limitation de température dans les systèmes de chauffage.
+File Name: docs/FACT-CHAUD-085_Limiteur_de_température_de_sécurité.md
+[/METADATA]

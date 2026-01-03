@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-086
+Title: Pressostat eau mini déclenché - Manque pression
+Category: Sécurité Gaz & Sécurités Générales
+Brand: Multi-marques
+Symptoms:
+  - Chaudière bloquée, ne démarre pas
+  - Code erreur 'pression insuffisante' ou 'défaut pressostat'
+  - Voyant pression allumé (rouge)
+  - Manomètre dans zone rouge (< 0,5 bar)
+  - Pressostat ne commute pas
+Keywords:
+  - Pressostat
+  - Pression
+  - Chaudière
+  - Déclenchement
+  - Sécurité
+Short Description: Problème de pressostat eau mini déclenché causant une pression insuffisante et une chaudière bloquée.
+File Name: docs/FACT-CHAUD-086_Pressostat_eau_mini_déclenché___Manque_pression.md
+[/METADATA]

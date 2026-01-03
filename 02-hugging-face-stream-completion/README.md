@@ -2,7 +2,7 @@
 
 You need a token from Hugging Face to use their models. You can get one by signing up at [Hugging Face](https://huggingface.co/join) and creating an access token in your account settings.
 
-✋ it works only for chat completion for now. (no function calling yet, no embeddings yet)
+✋ it works only for chat completion and tool calls for now. (no embeddings yet)
 
 Create a file named `huggingface.env` in the root directory of the project with the following content:
 

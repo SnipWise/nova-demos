@@ -1,0 +1,19 @@
+[METADATA]
+ID: FACT-CHAUD-079
+Title: Différentiel température mal réglé
+Category: Régulation & Sondes
+Brand: Multi-marques
+Symptoms:
+  - Cycles marche/arrêt trop fréquents (différentiel trop faible)
+  - Variation température intérieure excessive (différentiel trop élevé)
+  - Inconfort thermique (oscillations température)
+  - Chaudière ne redémarre pas assez vite (différentiel trop grand)
+Keywords:
+  - différentiel température
+  - régulation
+  - sondes
+  - chaudière
+  - inertie
+Short Description: Problème lié à un différentiel température mal réglé, pouvant causer des cycles de marche/arrêt fréquents, inconvénients de confort et d'efficacité.
+File Name: docs/FACT-CHAUD-079_Différentiel_température_mal_réglé.md
+[/METADATA]

@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-098
+Title: Connectique oxydée ou dessoudée
+Category: Électronique & Cartes de Commande
+Brand: Connectique oxydée ou dessoudée
+Symptoms:
+  - Fonctionnement intermittent aléatoire
+  - Perte de fonction spécifique (pompe, ventilateur, sonde)
+  - Faux contacts au démarrage
+  - Besoin de "tapoter" la chaudière pour redémarrer
+  - Sonde température avec valeurs erratiques
+Keywords:
+  - connectique
+  - oxydation
+  - dessoudure
+  - chaudière
+  - connecteurs
+Short Description: Problèmes liés à l'oxydation ou à la dessoudure des connecteurs électroniques dans une chaudière
+File Name: docs/FACT-CHAUD-098_Connectique_oxydée_ou_dessoudée.md
+[/METADATA]

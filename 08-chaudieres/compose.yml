@@ -1,0 +1,58 @@
+services:
+  # docker compose up --build --no-log-prefix -d
+  # docker compose exec chaudieres-service ./chaudieres
+  chaudieres-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    stdin_open: true # ← important
+    tty: true # ← important
+
+    environment:
+      NOVA_LOG_LEVEL: INFO
+      DATA_PATH: ./docs
+      STORE_PATH_FILE: ./store/support.json
+      CONFIG_PATH: ./config
+
+    volumes:
+      - ./docs:/app/docs:rw
+      - ./store:/app/store:rw
+      - ./config:/app/config:rw
+
+
+    models:
+      rag-model:
+        endpoint_var: ENGINE_URL
+        model_var: RAG_MODEL
+
+      metadata-model:
+        endpoint_var: ENGINE_URL
+        model_var: METADATA_MODEL
+
+      compressor-model:
+        endpoint_var: ENGINE_URL
+        model_var: COMPRESSOR_MODEL
+
+      chat-model:
+        endpoint_var: ENGINE_URL
+        model_var: CHAT_MODEL
+
+models:
+  rag-model:
+    model: ai/embeddinggemma:latest
+    #context_size: 16384
+
+  metadata-model:
+    model: hf.co/menlo/jan-nano-gguf:q4_k_m
+    #model: hf.co/menlo/jan-nano-128k-gguf:q4_k_m
+    context_size: 16384
+
+  compressor-model:
+    model: ai/qwen2.5:3B-F16
+    context_size: 16384
+    #context_size: 32768
+
+  chat-model:
+    model: hf.co/menlo/jan-nano-128k-gguf:q4_k_m
+    context_size: 32768  

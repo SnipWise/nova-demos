@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-073
+Title: Communication thermostat/chaudière coupée
+Category: Régulation & Sondes
+Brand: Multi-marques (systèmes modulants)
+Symptoms:
+  - Message erreur communication sur thermostat ou chaudière
+  - Thermostat connecté affiche 'perte connexion'
+  - Chaudière fonctionne en mode dégradé (température fixe)
+  - Pas de retour info chaudière sur thermostat (température, pression)
+  - Pictogramme communication absent/barré
+Keywords:
+  - Communication
+  - Thermostat
+  - Chaudière
+  - Perte connexion
+  - Mode dégradé
+Short Description: Problème de communication entre thermostat et chaudière, entraînant des symptômes tels qu'une perte de connexion, un mode dégradé, ou l'absence de données de la chaudière.
+File Name: docs/FACT-CHAUD-073_Communication_thermostat_chaudière_coupée.md
+[/METADATA]

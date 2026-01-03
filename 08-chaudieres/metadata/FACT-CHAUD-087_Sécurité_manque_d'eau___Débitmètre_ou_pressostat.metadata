@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-087
+Title: Sécurité manque d'eau - Débitmètre ou pressostat
+Category: Sécurité Gaz & Sécurités Générales
+Brand: Multi-marques (surtout instantanés ECS)
+Symptoms:
+  - Blocage chaudière sur appel ECS
+  - Code erreur 'débit insuffisant' ou 'manque d'eau ECS'
+  - Brûleur ne démarre pas à l'ouverture robinet
+  - Extinction brutale 10-30 secondes après démarrage
+  - Température ECS monte très vite (surchauffe)
+Keywords:
+  - débit eau sanitaire
+  - débitmètre
+  - pressostat
+  - sécurité manque d'eau
+  - chaudière ECS
+Short Description: Problème de sécurité liée à un manque d'eau ou un débit insuffisant dans une chaudière ECS, entraînant des risques de surchauffe et de destruction de l'échangeur.
+File Name: docs/FACT-CHAUD-087_Sécurité_manque_d'eau___Débitmètre_ou_pressostat.md
+[/METADATA]

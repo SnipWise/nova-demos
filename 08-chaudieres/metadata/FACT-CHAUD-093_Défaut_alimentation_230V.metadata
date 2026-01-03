@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-093
+Title: Défaut alimentation 230V
+Category: Électronique & Cartes de Commande
+Brand: FACT-CHAUD-093
+Symptoms:
+  - Chaudière complètement morte, pas d'affichage
+  - Disjoncteur qui saute au démarrage
+  - Affichage faible ou clignotant
+  - Réinitialisation horloge fréquente
+  - Fonctionnement intermittent
+Keywords:
+  - Alimentation électrique
+  - Disjoncteur
+  - Chaudière
+  - Tension secteur
+  - Câblage
+Short Description: Défaut alimentation 230V
+File Name: docs/FACT-CHAUD-093_Défaut_alimentation_230V.md
+[/METADATA]

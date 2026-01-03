@@ -1,0 +1,21 @@
+[METADATA]
+ID: FACT-CHAUD-084
+Title: Surchauffe échangeur - Risque ébullition
+Category: Sécurité Gaz & Sécurités Générales
+Brand: Multi-marques
+Symptoms:
+  - Température départ > 95°C (zone rouge manomètre)
+  - Bruit d'ébullition dans la chaudière (bouillonnement)
+  - Vapeur d'eau visible à la soupape de sécurité
+  - Soupape 3 bar qui évacue de l'eau chaude
+  - Chaudière vibre ou fait des bruits métalliques
+  - Thermostats de sécurité déclenchés
+Keywords:
+  - surchauffe
+  - ébullition
+  - chaudière
+  - sécurité
+  - risque
+Short Description: Surchauffe d'échangeur thermique avec risque d'ébullition et explosion.
+File Name: docs/FACT-CHAUD-084_Surchauffe_échangeur___Risque_ébullition.md
+[/METADATA]

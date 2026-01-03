@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-055
+Title: Temps de chauffe ECS trop long
+Category: Eau Chaude Sanitaire (ECS)
+Brand: FACT-CHAUD-055
+Symptoms:
+  - Attente prolongée avant eau chaude au robinet (> 30 secondes)
+  - Gaspillage eau en attendant température
+  - Temps d'attente augmente progressivement
+  - Problème pire sur points éloignés chaudière
+  - Ballon met très longtemps à chauffer
+Keywords:
+  - Temps de chauffe ECS
+  - Eau chaude sanitaire
+  - Problème ECS
+  - Calorifugeage
+  - Chaudière
+Short Description: Problème de temps de chauffe ECS trop long, affectant le confort et l'efficacité de la chaudière.
+File Name: docs/FACT-CHAUD-055_Temps_de_chauffe_ECS_trop_long.md
+[/METADATA]

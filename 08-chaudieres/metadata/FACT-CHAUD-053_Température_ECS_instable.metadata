@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-053
+Title: Température ECS instable
+Category: Eau Chaude Sanitaire (ECS)
+Brand: FACT-CHAUD-053
+Symptoms:
+  - Température ECS varie brutalement
+  - Eau brûlante puis tiède
+  - Variations synchrones avec débit
+  - Inconfort à la douche
+  - Température stable puis chutes
+Keywords:
+  - ECS
+  - Température instable
+  - Régulation
+  - Vanne 3 voies
+  - Débitmètre
+Short Description: Instabilité de la température ECS liée à des problèmes de sonde, débitmètre, régulation ou échangeur.
+File Name: docs/FACT-CHAUD-053_Température_ECS_instable.md
+[/METADATA]

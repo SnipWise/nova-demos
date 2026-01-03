@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-050
+Title: Vanne 3 voies défectueuse
+Category: Hydraulique
+Brand: Chaudières mixtes
+Symptoms:
+  - Pas d'eau chaude sanitaire ou ECS tiède malgré chaudière en chauffe
+  - Radiateurs ne chauffent plus alors que chaudière fonctionne
+  - Chaudière bascule en ECS mais radiateurs restent chauds (ou inverse)
+  - Fuite d'eau au niveau de la vanne 3 voies
+  - Bruit de moteur de vanne (grésillements) sans basculement
+Keywords:
+  - Vanne 3 voies
+  - Hydraulique
+  - Chaudière
+  - Fuite d'eau
+  - Moteur HS
+Short Description: Problème de vanne 3 voies défectueuse causant des symptômes tels que pas d'eau chaude, radiateurs ne chauffant pas, fuite d'eau et bruit de moteur.
+File Name: docs/FACT-CHAUD-050_Vanne_3_voies_défectueuse.md
+[/METADATA]

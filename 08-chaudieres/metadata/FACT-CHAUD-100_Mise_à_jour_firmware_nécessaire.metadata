@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-100
+Title: Mise à jour firmware nécessaire
+Category: Électronique & Cartes de Commande
+Brand: Multi-marques (surtout récentes)
+Symptoms:
+  - Bugs répétés, comportements illogiques
+  - Erreurs non justifiées (composants OK)
+  - Incompatibilité avec nouveau thermostat/régulation
+  - Fonctionnalités manquantes documentées notice
+  - Code erreur "Software Error" ou similaire
+Keywords:
+  - firmware
+  - mise à jour
+  - chaudière
+  - problème
+  - réparation
+Short Description: Mise à jour firmware nécessaire pour corriger des bugs, incompatibilités et améliorations de fonctionnalités dans les chaudières.
+File Name: docs/FACT-CHAUD-100_Mise_à_jour_firmware_nécessaire.md
+[/METADATA]

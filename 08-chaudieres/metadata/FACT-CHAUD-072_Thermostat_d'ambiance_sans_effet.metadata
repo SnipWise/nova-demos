@@ -1,0 +1,18 @@
+[METADATA]
+ID: FACT-CHAUD-072
+Title: Thermostat d'ambiance sans effet
+Category: Régulation & Sondes
+Brand: Multi-marques
+Symptoms:
+  - Modification consigne thermostat sans effet sur chaudière
+  - Chaudière fonctionne en continu malgré température atteinte
+  - Thermostat affiche correct mais régulation inopérante
+Keywords:
+  - thermostat
+  - chaudière
+  - régulation
+  - problème
+  - solution
+Short Description: Problèmes de régulation de la chaudière liés au thermostat d'ambiance et solutions correspondantes.
+File Name: docs/FACT-CHAUD-072_Thermostat_d'ambiance_sans_effet.md
+[/METADATA]

@@ -1,0 +1,19 @@
+[METADATA]
+ID: FACT-CHAUD-014
+Title: Elm Leblanc - Erreur EA flamme parasite
+Category: Brûleur & Combustion
+Brand: Elm Leblanc
+Symptoms:
+  - Code erreur EA affiché
+  - Message "Flamme parasite" ou "Fausse flamme"
+  - Chaudière bloquée avant tentative d'allumage
+  - Réarmement possible mais erreur réapparaît
+Keywords:
+  - Elm Leblanc
+  - détection flamme
+  - erreur EA
+  - flamme parasite
+  - chaudière bloquée
+Short Description: Erreur de détection flamme chez Elm Leblanc causant un blocage de la chaudière et un message de "flamme parasite".
+File Name: docs/FACT-CHAUD-014_Elm_Leblanc___Erreur_EA_flamme_parasite.md
+[/METADATA]

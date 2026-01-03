@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-082
+Title: Vanne gaz de sécurité fermée - Chaudière bloquée
+Category: Sécurité Gaz & Sécurités Générales
+Brand: Multi-marques
+Symptoms:
+  - Chaudière bloquée, pas de tentative d'allumage
+  - Code erreur 'défaut gaz' ou 'vanne gaz'
+  - Étincelle présente mais aucune flamme
+  - Bruit caractéristique d'ouverture vanne absent
+  - Vanne reste fermée malgré appel chaleur
+Keywords:
+  - Vanne gaz sécurité
+  - Chaudière bloquée
+  - Code erreur gaz
+  - Bobine vanne
+  - Pressostat gaz
+Short Description: Problème de chaudière bloquée due à une vanne gaz sécurité défectueuse, avec symptômes d'échec d'allumage et absence de bruit d'ouverture.
+File Name: docs/FACT-CHAUD-082_Vanne_gaz_de_sécurité_fermée___Chaudière_bloquée.md
+[/METADATA]

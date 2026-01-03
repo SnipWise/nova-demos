@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-059
+Title: Débitmètre ECS défectueux
+Category: Eau Chaude Sanitaire (ECS)
+Brand: Multi-marques (chaudières instantanées)
+Symptoms:
+  - Chaudière ne détecte pas demande ECS
+  - Pas de démarrage brûleur à l'ouverture robinet
+  - Démarrage aléatoire ou tardif
+  - Code erreur débit ECS insuffisant
+  - Brûleur s'arrête en cours de puisage
+Keywords:
+  - Débitmètre
+  - ECS
+  - Chaudière
+  - Turbine
+  - Capteur Hall
+Short Description: Débitmètre ECS défectueux causant des problèmes de détection et de fonctionnement de la chaudière.
+File Name: docs/FACT-CHAUD-059_Débitmètre_ECS_défectueux.md
+[/METADATA]

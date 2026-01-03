@@ -1,0 +1,21 @@
+[METADATA]
+ID: FACT-CHAUD-097
+Title: Reset permanent / Réinitialisation intempestive
+Category: Électronique & Cartes de Commande
+Brand: Multi-marques
+Symptoms:
+  - Chaudière redémarre aléatoirement
+  - Horloge se réinitialise fréquemment (00:00)
+  - Paramètres perdus après chaque coupure
+  - Écran affiche 'Initialisation' répétée
+  - Erreurs mémoire affichées
+  - Code erreur watchdog / reset
+Keywords:
+  - reset permanent
+  - micro-coupure
+  - pile RTC
+  - condensateur mémoire
+  - watchdog
+Short Description: Problème de réinitialisation aléatoire de chaudière liée à des micro-coupures, tension instable, ou défauts de composants électroniques.
+File Name: docs/FACT-CHAUD-097_Reset_permanent___Réinitialisation_intempestive.md
+[/METADATA]

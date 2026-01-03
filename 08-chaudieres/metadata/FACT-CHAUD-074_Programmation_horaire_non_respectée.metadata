@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-074
+Title: Programmation horaire non respectée
+Category: Régulation & Sondes
+Brand: Multi-marques
+Symptoms:
+  - Chauffage actif hors plages horaires programmées
+  - Chauffage ne démarre pas aux heures prévues
+  - Décalage horaire (heure été/hiver non prise en compte)
+  - Programme effacé ou modifié sans intervention
+  - Mode forcé activé en permanence
+Keywords:
+  - programmation horaire
+  - chauffage
+  - horloge
+  - réglage
+  - système
+Short Description: Problème lié à la non-respect des plages horaires de chauffage programmées, causé par une horloge mal réglée ou un programme incorrect.
+File Name: docs/FACT-CHAUD-074_Programmation_horaire_non_respectée.md
+[/METADATA]

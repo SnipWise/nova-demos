@@ -1,0 +1,21 @@
+[METADATA]
+ID: FACT-CHAUD-090
+Title: Disjoncteur différentiel qui saute - Fuite courant
+Category: Sécurité Gaz & Sécurités Générales
+Brand: Multi-marques
+Symptoms:
+  - Disjoncteur différentiel saute au démarrage chaudière
+  - Déclenchement aléatoire en fonctionnement
+  - Voyant différentiel rouge
+  - Impossible réenclencher, redéclenche immédiatement
+  - Tient quelques secondes/minutes puis redéclenche
+  - Au démarrage pompe, vanne gaz, ou allumage
+Keywords:
+  - disjoncteur différentiel
+  - fuite courant
+  - sécurité gaz
+  - défaut isolement
+  - humidité
+Short Description: Fuite courant vers terre > 30 mA causant déclenchement répété du disjoncteur différentiel 30 mA.
+File Name: docs/FACT-CHAUD-090_Disjoncteur_différentiel_qui_saute___Fuite_courant.md
+[/METADATA]

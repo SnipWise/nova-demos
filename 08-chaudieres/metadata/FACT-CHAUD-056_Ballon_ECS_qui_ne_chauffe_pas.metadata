@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-056
+Title: Ballon ECS qui ne chauffe pas
+Category: Eau Chaude Sanitaire (ECS)
+Brand: FACT-CHAUD-056
+Symptoms:
+  - Ballon ECS reste froid
+  - Pas de production eau chaude (stock ballon épuisé)
+  - Chaudière ne chauffe pas le ballon
+  - Température ballon stagne (affichage)
+  - Mode chauffage fonctionne normalement
+Keywords:
+  - Ballon ECS
+  - Eau Chaude Sanitaire
+  - Vanne Motorisée
+  - Sonde Température
+  - Circulateur
+Short Description: Ballon ECS qui ne chauffe pas
+File Name: docs/FACT-CHAUD-056_Ballon_ECS_qui_ne_chauffe_pas.md
+[/METADATA]

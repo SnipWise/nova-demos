@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-020
+Title: Variation puissance incohérente
+Category: Brûleur & Combustion
+Brand: Multi-marques (chaudières modulantes)
+Symptoms:
+  - Puissance affichée ne correspond pas au comportement
+  - Flamme visuelle ne correspond pas à % affiché
+  - Brûleur en puissance max alors que faible demande
+  - Température départ dépasse consigne largement
+  - Ou inversement : puissance insuffisante
+Keywords:
+  - puissance
+  - flamme
+  - vanne gaz
+  - sonde température
+  - carte électronique
+Short Description: Incohérence entre puissance affichée et comportement réel des brûleurs.
+File Name: docs/FACT-CHAUD-020_Variation_puissance_incohérente.md
+[/METADATA]

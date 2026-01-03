@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-067
+Title: Sonde température retour HS
+Category: Régulation & Sondes
+Brand: Multi-marques (chaudières avec régulation avancée)
+Symptoms:
+  - Code erreur sonde retour
+  - Calcul ΔT impossible ou erroné
+  - Protection anti-condensation non fonctionnelle
+  - Modulation sous-optimale
+  - Régulation hydraulique dégradée
+Keywords:
+  - Sonde température retour
+  - Code erreur sonde retour
+  - ΔT
+  - Protection anti-condensation
+  - Modulation
+Short Description: Problème lié à la sonde de température retour, affectant la régulation et la performance de la chaudière.
+File Name: docs/FACT-CHAUD-067_Sonde_température_retour_HS.md
+[/METADATA]

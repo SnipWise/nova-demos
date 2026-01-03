@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-028
+Title: Tirage variable selon météo
+Category: Circuit fumées & tirage
+Brand: FACT-CHAUD-028
+Symptoms:
+  - Fonctionnement aléatoire selon conditions météo
+  - Défauts par temps de pluie ou vent
+  - Tirage insuffisant par temps doux
+  - Refoulement par vent fort
+  - Fonctionnement normal par temps froid sec
+Keywords:
+  - tirage variable
+  - météo
+  - conduit
+  - chaudière
+  - vent
+Short Description: Problème de tirage variable selon les conditions météo, affectant le fonctionnement d'une chaudière atmosphérique.
+File Name: docs/FACT-CHAUD-028_Tirage_variable_selon_météo.md
+[/METADATA]

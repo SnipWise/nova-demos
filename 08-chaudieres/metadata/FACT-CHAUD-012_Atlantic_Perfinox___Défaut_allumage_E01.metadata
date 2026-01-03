@@ -1,0 +1,19 @@
+[METADATA]
+ID: FACT-CHAUD-012
+Title: Atlantic Perfinox - Défaut allumage E01
+Category: Brûleur & Combustion
+Brand: Atlantic (Perfinox, Idra)
+Symptoms:
+  - Code erreur E01 affiché
+  - 1 clignotement LED rouge
+  - Pas d'allumage après 3 tentatives
+  - Réarmement nécessaire
+Keywords:
+  - Allumage Atlantic
+  - Code erreur E01
+  - Réarmement
+  - Électrode défectueuse
+  - Vanne gaz
+Short Description: Problème d'allumage avec code erreur E01, nécessitant vérification de l'alimentation gaz, du système d'allumage et de la carte électronique.
+File Name: docs/FACT-CHAUD-012_Atlantic_Perfinox___Défaut_allumage_E01.md
+[/METADATA]

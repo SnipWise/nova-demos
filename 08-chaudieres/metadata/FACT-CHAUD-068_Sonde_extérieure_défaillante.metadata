@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-068
+Title: Sonde extérieure défaillante
+Category: Régulation & Sondes
+Brand: Multi-marques (sur installations avec régulation climatique)
+Symptoms:
+  - Température extérieure affichée aberrante (ex: -50°C ou +80°C)
+  - Régulation climatique inopérante (retour loi d'eau fixe)
+  - Température départ ne s'adapte pas aux conditions extérieures
+  - Surchauffe ou sous-chauffe locaux
+  - Code erreur sonde extérieure (certaines marques)
+Keywords:
+  - Sonde extérieure défaillante
+  - Régulation climatique
+  - Température extérieure aberrante
+  - Code erreur sonde
+  - Sonde CTN défectueuse
+Short Description: Panne d'une sonde extérieure due à une défaillance de la sonde, câble, ou positionnement incorrect, entraînant des problèmes de régulation et de confort thermique.
+File Name: docs/FACT-CHAUD-068_Sonde_extérieure_défaillante.md
+[/METADATA]

@@ -1,0 +1,99 @@
+services:
+  # docker compose up --build --no-log-prefix -d
+  # docker compose exec draw-diagram-service ./draw-diagram
+  draw-diagram-service:
+    labels:
+      local.service: draw-diagram 
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    # stdin_open: true # ← important
+    # tty: true # ← important
+
+    environment:
+      NOVA_LOG_LEVEL: INFO
+      
+      # DIAGRAM_QUERY: |
+      #   Create a class diagram of a character class. 
+      #   The character class has attributes name and level, and method move().
+
+
+      # DIAGRAM_QUERY: |
+      #   Create a class diagram of a warrior that inherits from a character class. 
+      #   The warrior has attributes strength and weapon, and methods attack() and defend(). 
+      #   The character class has attributes name and level, and method move().
+      #   Additionally, include a mage class that also inherits from character,
+      #   with attributes mana and spell, and methods castSpell() and teleport().
+      #   And add the arrow symbols (△) to indicate inheritance relationships.
+      #   - Mage inherits from Character
+      #   - Warrior inherits from Character
+
+      DIAGRAM_QUERY: |
+        Create a UML class diagram showing inheritance with THREE child classes.
+
+        Parent class: Character (attributes: name, level | method: move())
+        Child classes inheriting from Character:
+        - Warrior (attributes: strength, weapon | methods: attack(), defend())
+        - Mage (attributes: mana, spell | methods: castSpell(), teleport())
+        - Rogue (attributes: agility, stealth | methods: sneak(), backstab())
+
+        CRITICAL REQUIREMENTS:
+        1. Draw the △ symbol centered below the Character class
+        2. Draw THREE vertical lines (│) from the triangle down to EACH child class
+        3. Ensure ALL three child classes (Warrior, Mage, AND Rogue) are connected with │ lines
+        4. The inheritance tree must show: Character → △ → │││ (3 branches) → Warrior, Mage, Rogue
+        5. All three child classes MUST be aligned horizontally at the same level
+        6. Each branch must have equal spacing and proper alignment
+      
+        Then generate a second diagram but using interfaces instead of classes.
+
+      # DIAGRAM_QUERY: |
+      #   Create a class diagram of an AI agent that inherits from a base Agent class. 
+      #   The AI agent has attributes model and tools, and methods perceive() and act(). 
+      #   The base Agent class has attributes id and environment, and method run().
+      #   Additionally, include a Tool class that has attributes name and function, and method execute().
+      #   The AI agent uses multiple tools to interact with its environment.
+      #   And add the arrow symbols (△) to indicate inheritance relationships.
+      #   - AI Agent inherits from Agent
+      #   - Tool is used by AI Agent
+
+
+      # DIAGRAM_QUERY: |
+      #   I need a flow diagram to explain function calling with LLMs:configs:
+      #   - A user sends a request to the LLM.
+      #   - The LLM processes the request and may call external functions if needed.
+      #   - If a function call is made, the LLM sends the function name and parameters to the function execution environment.
+      #   - The function execution environment executes the function and returns the result to the LLM.
+      #   - The LLM incorporates the function result into its response to the user. 
+
+
+    command: ./draw-diagram
+
+    volumes:
+      - ./data:/app/data:rw
+      - ./store:/app/store:rw
+
+    models:
+      rag-model:
+        endpoint_var: ENGINE_URL
+        model_var: RAG_MODEL
+
+      chat-model:
+        endpoint_var: ENGINE_URL
+        model_var: CHAT_MODEL
+
+
+
+models:
+  rag-model:
+    model: huggingface.co/mixedbread-ai/mxbai-embed-large-v1:f16
+    #context_size: 16384
+
+  chat-model:
+    #model: hf.co/menlo/jan-nano-gguf:q4_k_m
+    #model: hf.co/menlo/jan-nano-128k-gguf:q4_k_m
+    #model: hf.co/menlo/lucy-128k-gguf:q4_k_m
+    model: ai/qwen3:latest
+    #model: ai/qwen2.5:latest
+    context_size: 32768

@@ -1,0 +1,19 @@
+[METADATA]
+ID: FACT-CHAUD-006
+Title: Code erreur ventilateur - Saunier Duval F33
+Category: Brûleur & Combustion
+Brand: Saunier Duval
+Symptoms:
+  - Code erreur F33 affiché
+  - Ventilateur ne démarre pas ou vitesse insuffisante
+  - Chaudière bloquée, pas de tentative d'allumage
+  - Bruit anormal du ventilateur
+Keywords:
+  - ventilateur
+  - code erreur
+  - f33
+  - chaudière
+  - défaut
+Short Description: Code erreur F33 lié à un problème de ventilateur extraction dans une chaudière Saunier Duval.
+File Name: docs/FACT-CHAUD-006_Code_erreur_ventilateur___Saunier_Duval_F33.md
+[/METADATA]

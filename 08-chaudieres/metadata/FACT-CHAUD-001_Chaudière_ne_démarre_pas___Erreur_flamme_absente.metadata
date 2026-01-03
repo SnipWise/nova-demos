@@ -1,0 +1,19 @@
+[METADATA]
+ID: FACT-CHAUD-001
+Title: Chaudière ne démarre pas - Erreur flamme absente
+Category: Brûleur & Combustion
+Brand: Multi-marques (Saunier Duval F28, Vaillant F29, Frisquet 501)
+Symptoms:
+  - Tentatives d'allumage visibles mais pas de flamme
+  - Code erreur 'absence de flamme' ou 'défaut ionisation'
+  - La chaudière se met en sécurité après 3-5 essais
+  - Bruit de claquement à chaque tentative
+Keywords:
+  - chaudière
+  - flamme absente
+  - allumage gaz
+  - erreur flamme
+  - brûleur
+Short Description: La chaudière ne démarre pas et affiche une erreur de flamme absente, souvent due à des problèmes de gaz, d'électrode ou de brûleur.
+File Name: docs/FACT-CHAUD-001_Chaudière_ne_démarre_pas___Erreur_flamme_absente.md
+[/METADATA]

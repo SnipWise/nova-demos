@@ -1,0 +1,19 @@
+[METADATA]
+ID: FACT-CHAUD-008
+Title: Défaut allumage Vaillant F28/F29
+Category: Brûleur & Combustion
+Brand: Vaillant
+Symptoms:
+  - Code F28 : échec allumage (3 tentatives sans succès)
+  - Code F29 : extinction flamme en cours de fonctionnement
+  - Réarmement manuel nécessaire
+  - Parfois alternance F28/F29
+Keywords:
+  - allumage
+  - défaut
+  - Vaillant
+  - F28
+  - F29
+Short Description: Défaut allumage Vaillant F28/F29 avec symptômes de code d'erreur et étapes de résolution.
+File Name: docs/FACT-CHAUD-008_Défaut_allumage_Vaillant_F28_F29.md
+[/METADATA]

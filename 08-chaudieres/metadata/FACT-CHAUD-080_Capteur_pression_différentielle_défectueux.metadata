@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-080
+Title: Capteur pression différentielle défectueux
+Category: Régulation & Sondes
+Brand: FACT-CHAUD-080
+Symptoms:
+  - Code erreur débit/pression différentielle
+  - Chaudière ne démarre pas
+  - Modulation puissance incohérente
+  - Régulation hydraulique défaillante
+  - Protection manque d'eau activée sans raison
+Keywords:
+  - capteur ΔP
+  - défaut
+  - régulation
+  - pression différentielle
+  - chaudière
+Short Description: Problème lié à un capteur de pression différentielle défectueux, entraînant des symptômes tels que des codes d'erreur, une défaillance de la chaudière et une régulation incohérente.
+File Name: docs/FACT-CHAUD-080_Capteur_pression_différentielle_défectueux.md
+[/METADATA]

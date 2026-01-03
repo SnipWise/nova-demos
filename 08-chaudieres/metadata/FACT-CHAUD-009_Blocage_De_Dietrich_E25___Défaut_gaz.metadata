@@ -1,0 +1,19 @@
+[METADATA]
+ID: FACT-CHAUD-009
+Title: Blocage De Dietrich E25 - Défaut gaz
+Category: Brûleur & Combustion
+Brand: De Dietrich
+Symptoms:
+  - Code E25 affiché
+  - Blocage chaudière
+  - Message 'Défaut gaz' ou 'Pression gaz'
+  - 3 clignotements LED
+Keywords:
+  - gaz
+  - pressostat
+  - vanne
+  - défaut
+  - chaudière
+Short Description: Défaut gaz dans le système de détection gaz de De Dietrich causant un blocage de la chaudière.
+File Name: docs/FACT-CHAUD-009_Blocage_De_Dietrich_E25___Défaut_gaz.md
+[/METADATA]

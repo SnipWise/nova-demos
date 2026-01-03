@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-076
+Title: Anticipation surchauffe
+Category: Régulation & Sondes
+Brand: Multi-marques
+Symptoms:
+  - Température départ dépasse largement consigne
+  - Température intérieure atteint consigne puis continue à monter
+  - Chaudière ne s'arrête pas à temps
+  - Surchauffe de 2-5°C après arrêt chaudière
+  - Inconfort thermique (trop chaud)
+Keywords:
+  - surchauffe
+  - régulation
+  - anticipation
+  - inertie
+  - chaudière
+Short Description: Surchauffe de la chaudière due à une régulation insuffisante ou une inertie non compensée, entraînant dépassement de consigne et inconfort thermique.
+File Name: docs/FACT-CHAUD-076_Anticipation_surchauffe.md
+[/METADATA]

@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-069
+Title: Sonde ballon ECS défectueuse
+Category: Régulation & Sondes
+Brand: FACT-CHAUD-069
+Symptoms:
+  - Température ECS affichée incohérente
+  - Eau tiède ou froide alors que chaudière chauffe
+  - Eau brûlante (surchauffe ballon)
+  - Cycles de chauffe incessants ou absents
+  - Code erreur sonde ballon (selon marque)
+Keywords:
+  - Sonde ballon ECS
+  - Défectueuse
+  - Régulation
+  - Sondes
+  - ECS
+Short Description: Problème lié à une sonde ballon ECS défectueuse, causant des symptômes tels qu'une température ECS incohérente, un chauffe incessant ou absent, et des codes d'erreur.
+File Name: docs/FACT-CHAUD-069_Sonde_ballon_ECS_défectueuse.md
+[/METADATA]

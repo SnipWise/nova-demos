@@ -1,0 +1,19 @@
+[METADATA]
+ID: FACT-CHAUD-015
+Title: Chaffoteaux - Erreur 501 absence flamme
+Category: Brûleur & Combustion
+Brand: Chaffoteaux
+Symptoms:
+  - Code erreur 501 affiché
+  - Blocage après 3 tentatives d'allumage
+  - Étincelle visible mais pas d'inflammation
+  - Reset nécessaire
+Keywords:
+  - Code erreur 501
+  - Brûleur
+  - Allumage
+  - Vanne gaz
+  - Électrodes
+Short Description: Problème d'allumage lié à l'absence de flamme, avec code erreur 501 et blocage après 3 tentatives.
+File Name: docs/FACT-CHAUD-015_Chaffoteaux___Erreur_501_absence_flamme.md
+[/METADATA]

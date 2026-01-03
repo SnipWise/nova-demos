@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-066
+Title: Sonde température départ défectueuse
+Category: Régulation & Sondes
+Brand: Chaudière
+Symptoms:
+  - Affichage température incohérente ou absente
+  - Code erreur sonde départ
+  - Température affichée bloquée ou erratique
+  - Chaudière en sécurité ou fonctionne en mode dégradé
+  - Pas de modulation de puissance
+Keywords:
+  - Sonde température départ
+  - Régulation
+  - Sondes
+  - Élevée
+  - Corrosion
+Short Description: Problème de sonde température départ défectueuse entraînant des symptômes de régulation anormale.
+File Name: docs/FACT-CHAUD-066_Sonde_température_départ_défectueuse.md
+[/METADATA]

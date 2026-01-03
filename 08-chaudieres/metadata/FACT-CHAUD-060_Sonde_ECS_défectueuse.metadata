@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-060
+Title: Sonde ECS défectueuse
+Category: Eau Chaude Sanitaire (ECS)
+Brand: Multi-marques
+Symptoms:
+  - Température ECS incohérente (affichage vs réalité)
+  - Code erreur sonde ECS
+  - Température ECS instable ou excessive
+  - Chaudière ne régule pas température ECS
+  - Affichage température aberrante (ex: 120°C)
+Keywords:
+  - Sonde ECS défectueuse
+  - Température ECS incohérente
+  - Code erreur sonde ECS
+  - Sonde CTN/NTC défectueuse
+  - Test résistance sonde
+Short Description: Problème lié à une sonde ECS défectueuse, entraînant des symptômes tels que température incohérente, codes d'erreur ou instabilité.
+File Name: docs/FACT-CHAUD-060_Sonde_ECS_défectueuse.md
+[/METADATA]

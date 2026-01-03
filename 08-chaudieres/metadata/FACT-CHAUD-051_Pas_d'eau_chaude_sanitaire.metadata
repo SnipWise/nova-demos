@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-051
+Title: Pas d'eau chaude sanitaire
+Category: Eau Chaude Sanitaire (ECS)
+Brand: Multi-marques
+Symptoms:
+  - Aucune production d'eau chaude au robinet
+  - Eau reste froide même après plusieurs minutes
+  - Chaudière ne démarre pas sur demande ECS
+  - Mode chauffage fonctionne normalement
+  - Pas de bruit brûleur lors ouverture robinet ECS
+Keywords:
+  - Eau Chaude Sanitaire
+  - Vanne 3 voies
+  - Débitmètre ECS
+  - Carte électronique
+  - Brûleur
+Short Description: Problème d'eau chaude sanitaire due à une vanne 3 voies bloquée, débitmètre défectueux, ou carte électronique défaillante.
+File Name: docs/FACT-CHAUD-051_Pas_d'eau_chaude_sanitaire.md
+[/METADATA]

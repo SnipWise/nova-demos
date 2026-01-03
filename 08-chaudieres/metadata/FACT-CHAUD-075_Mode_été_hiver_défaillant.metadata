@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-075
+Title: Mode été/hiver défaillant
+Category: Régulation & Sondes
+Brand: Multi-marques (chaudières mixtes chauffage+ECS)
+Symptoms:
+  - Chauffage actif en été (hors demande)
+  - Pas de production ECS en mode hiver
+  - Commutation automatique ne fonctionne pas
+  - Mode été/hiver bloqué sur une position
+  - Chaudière ne suit pas sélection mode
+Keywords:
+  - chauffage
+  - ECS
+  - vanne 3 voies
+  - mode été/hiver
+  - commutation
+Short Description: Problème de commutation été/hiver chez les chaudières mixtes, avec symptômes de chauffage en été et absence d'ECS en hiver.
+File Name: docs/FACT-CHAUD-075_Mode_été_hiver_défaillant.md
+[/METADATA]

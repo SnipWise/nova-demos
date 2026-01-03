@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-064
+Title: Brûleur ne démarre pas sur demande ECS
+Category: Eau Chaude Sanitaire (ECS)
+Brand: Brûleur ne démarre pas sur demande ECS
+Symptoms:
+  - Ouverture robinet ECS : aucune réaction chaudière
+  - Brûleur ne s'allume pas en demande sanitaire
+  - Mode chauffage fonctionne normalement
+  - Pas de bruit, pas de ventilateur
+  - Afficheur ne passe pas en mode ECS
+Keywords:
+  - Brûleur
+  - ECS
+  - Débitmètre
+  - Vanne 3 voies
+  - Sécurité
+Short Description: Le brûleur ne démarre pas lorsque la demande sanitaire est activée, ce qui indique un problème lié à la détection du débit ou à la commande du système.
+File Name: docs/FACT-CHAUD-064_Brûleur_ne_démarre_pas_sur_demande_ECS.md
+[/METADATA]

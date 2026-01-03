@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-052
+Title: ECS tiède ou insuffisamment chaude
+Category: Eau Chaude Sanitaire (ECS)
+Brand: Multi-marques
+Symptoms:
+  - Eau chaude produite mais température insuffisante
+  - Température ECS < 40°C au robinet
+  - Nécessité ouvrir en grand côté chaud pour avoir tiède
+  - Température diminue si débit élevé
+  - Ballon ECS ne monte pas assez en température
+Keywords:
+  - ECS
+  - température
+  - chaude
+  - insuffisante
+  - système
+Short Description: Problème de température ECS insuffisante ou trop basse, nécessitant une vérification de plusieurs paramètres.
+File Name: docs/FACT-CHAUD-052_ECS_tiède_ou_insuffisamment_chaude.md
+[/METADATA]

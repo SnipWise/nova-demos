@@ -1,0 +1,20 @@
+[METADATA]
+ID: FACT-CHAUD-047
+Title: By-pass hydraulique mal réglé
+Category: Hydraulique
+Brand: Multi-marques (circuits avec robinets thermostatiques)
+Symptoms:
+  - Radiateurs chauffent mal malgré circulateur en fonctionnement
+  - Débit excessif dans certains radiateurs, insuffisant dans d'autres
+  - Bruit de circulation important (sifflement, vibration)
+  - Écart de température départ/retour faible (< 10°C)
+  - Circulateur bruyant ou en protection (débit trop faible)
+Keywords:
+  - By-pass
+  - Hydraulique
+  - Circulateur
+  - Température
+  - Régulation
+Short Description: Problème de by-pass mal réglé dans le système de chauffage, entraînant des symptômes tels que chauffage incomplet, débit inégal, bruit et écart de température.
+File Name: docs/FACT-CHAUD-047_By_pass_hydraulique_mal_réglé.md
+[/METADATA]

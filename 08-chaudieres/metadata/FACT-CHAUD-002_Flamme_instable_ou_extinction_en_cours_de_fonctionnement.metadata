@@ -1,0 +1,19 @@
+[METADATA]
+ID: FACT-CHAUD-002
+Title: Flamme instable ou extinction en cours de fonctionnement
+Category: Brûleur & Combustion
+Brand: Multi-marques (Vaillant, Saunier Duval, Elm Leblanc)
+Symptoms:
+  - Flamme qui s'allume puis s'éteint après quelques secondes
+  - Cycles d'allumage/extinction répétés
+  - Flamme irrégulière, jaune ou qui "bat"
+  - Code erreur détection flamme perdue
+Keywords:
+  - Flamme instable
+  - Extinction en cours de fonctionnement
+  - Électrode d'ionisation
+  - Masse défectueuse
+  - Carte électronique
+Short Description: Problème de flamme instable ou extinction pendant la combustion, souvent lié à des problèmes électriques ou de combustion.
+File Name: docs/FACT-CHAUD-002_Flamme_instable_ou_extinction_en_cours_de_fonctionnement.md
+[/METADATA]
